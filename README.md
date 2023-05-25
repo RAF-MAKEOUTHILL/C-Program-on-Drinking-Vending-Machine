@@ -111,3 +111,15 @@ The program returns to the main menu to allow the user to make another choice.
 This process continues until the user chooses to leave the vending machine (option 6).
 
 Note: The code uses the C++ strcpy function to copy the drink names into the name fields of the softdrink structure. However, it is recommended to use std::string instead of character arrays for string handling in modern C++.
+                    
+                    
+                    
+                       OUTPUT
+1)Cola                  0.7500       (20)  remaining
+2)Root Beer             0.7500       (20)  remaining
+3)Lemon Soda            0.7500       (20)  remaining
+4)Grape Soda            0.7500       (20)  remaining
+5)Cream Soda            0.7500       (20)  remaining                    
+6)Leave the drinkmachine
+                    
+ choose one:                   
