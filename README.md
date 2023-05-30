@@ -1,7 +1,9 @@
-Question:
+                           QUESTION:
+
 You are tasked with developing a vending machine application. The vending machine should allow customers to select from a variety of soft drinks and make payments. The program should display the available drinks with their prices and quantities, accept the customer's choice and money, dispense the selected drink, calculate and return the change, and update the quantity of the selected drink. Write a C++ program that implements this vending machine functionality.
 
-
+                             CODE
+```
 
 #include<iostream>
 #include <stdlib.h>
@@ -89,10 +91,13 @@ int main() {
 
     return 0;
 }
+```
+
 
                     
                     
-                                                                    Explanation:
+                                                                    EXPLANATION:
+                    
 The above code is an implementation of a vending machine application in C++. It allows customers to select from a menu of soft drinks, make payments, and receive the selected drink along with any change. Here's how it works:
 
 The code defines a structure softdrink to store information about each drink, including its name, price, and quantity.
@@ -114,7 +119,9 @@ Note: The code uses the C++ strcpy function to copy the drink names into the nam
                     
                     
                     
-                       OUTPUT
+                          OUTPUT
+                    
+```                    
 1)Cola                  0.7500       (20)  remaining
 2)Root Beer             0.7500       (20)  remaining
 3)Lemon Soda            0.7500       (20)  remaining
@@ -122,4 +129,5 @@ Note: The code uses the C++ strcpy function to copy the drink names into the nam
 5)Cream Soda            0.7500       (20)  remaining                    
 6)Leave the drinkmachine
                     
- choose one:                   
+ choose one: 
+ ```
